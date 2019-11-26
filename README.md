@@ -1,12 +1,17 @@
 # GLANN
 Official code for paper "Non-Adversarial Image Synthesis with Generative Latent Nearest Neighbors" by Yedid Hoshen, Ke Li and Jitendra Malik, CVPR'19
 
-This repository contains implementations of:
+This repository contains Python3 implementations of:
 - Generative Latent Optimization (GLO)
 - Implicit Maximum Likelihood Estimation (IMLE)
 - Generative Latent Nearest Neighbors (GLANN)
 
 # Quick Start
+
+Install dependencies:
+```bash
+pip install numpy scipy pytorch torchvision python-mnist fbpca faiss
+```
 
 Edit prepare_mnist.py with the correct path to the data.
 
