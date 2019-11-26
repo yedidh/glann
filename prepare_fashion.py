@@ -1,7 +1,8 @@
 from mnist import MNIST
 import numpy as np
 
-mndata = MNIST('../../../datasets/fashion/')
+data_path = "NULL" # Replace with path to data
+mndata = MNIST(data_path)
 train_images, train_labels = mndata.load_training()
 test_images, test_labels = mndata.load_testing()
 train_images = np.array(train_images)
