@@ -8,6 +8,8 @@ This repository contains implementations of:
 
 # Quick Start
 
+Edit prepare_mnist.py with the correct path to the data.
+
 Prepare a dataset:
 ```bash
 python prepare_mnist.py
