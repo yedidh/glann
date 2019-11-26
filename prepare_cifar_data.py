@@ -9,7 +9,7 @@ train_list = ['data_batch_1', 'data_batch_2',
 
 test_list = ['test_batch']
 
-root = "../../../datasets/cifar-10-batches-py/"
+root = "NULL" # Replace with path to data
 train_ims = []
 train_l = []
 for fentry in train_list:
