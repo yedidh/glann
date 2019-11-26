@@ -1,5 +1,5 @@
 # GLANN
-Official code for paper "Non-Adversarial Image Synthesis with Generative Latent Nearest Neighbors" by Yedid Hoshen, Ke Li and Jitendra Malik, CVPR'19
+Official code for paper "[Non-Adversarial Image Synthesis with Generative Latent Nearest Neighbors](http://openaccess.thecvf.com/content_CVPR_2019/papers/Hoshen_Non-Adversarial_Image_Synthesis_With_Generative_Latent_Nearest_Neighbors_CVPR_2019_paper.pdf)" by Yedid Hoshen, Ke Li and Jitendra Malik, CVPR'19
 
 This repository contains Python3 implementations of:
 - Generative Latent Optimization (GLO)
