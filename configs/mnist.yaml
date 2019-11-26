@@ -1,0 +1,19 @@
+name: "mnist"
+train_path: "train.npy"
+test_path: "test.npy"
+sz: 28
+nc: 1
+glo:
+  learning_rate: 0.01
+  factor: 0.1
+  nz: 64
+  do_bn: True
+  batch_size: 128
+  decay: 20
+  total_epoch: 200
+icp:
+  dim: 32
+  total_epoch: 50
+fid:
+  batch_size: 50
+  n_images: 10000
