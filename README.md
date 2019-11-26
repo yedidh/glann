@@ -22,7 +22,7 @@ python train_glo.py configs/mnist.yaml
 
 Train IMLE based on the trained GLO model:
 ```bash
-python train_imle.py configs/mnist.yaml
+python train_icp.py configs/mnist.yaml
 ```
 
 Evaluate the FID of the trained GLANN model:
